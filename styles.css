@@ -1,3 +1,6 @@
+/*  Style for the Simon Game  */
+
+/* Game Board */
 body {
   text-align: center;
   background-color: #1A374D;
@@ -26,11 +29,6 @@ body {
   
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
 .red {
   background-color: red;
   border-radius: 0 20% 0 0;
@@ -51,7 +49,16 @@ body {
    border-radius: 0 0 0 20%;
 }
 
+
+/*  Game Play   */
 .pressed {
   box-shadow: 0 0 20px #406882;
   background-color: #B1D0E0;
+}
+
+
+/*  Game Over   */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
 }
